@@ -1,0 +1,44 @@
+title: "Ana Cristina | Dashboards e Relatórios"
+description: "Planilhas, relatórios em Excel e Power BI. Soluções ágeis e acessíveis."
+lang: pt-BR
+url: "" # preencha depois com https://anamazzali.github.io
+baseurl: "" # deixe vazio se for username.github.io; use /nome-do-repo se for site de projeto
+theme: null
+markdown: kramdown
+permalink: /:title/
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+sass:
+  style: compressed
+collections:
+  posts:
+    output: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+nav:
+  - title: "Início"
+    url: "/"
+  - title: "Sobre"
+    url: "/sobre/"
+  - title: "Portfólio"
+    url: "/portfolio/"
+  - title: "Contato"
+    url: "/contato/"
+branding:
+  primary: "#0EA35D"
+  primary-600: "#0B7F48"
+  primary-200: "#BFEBD7"
+  dark: "#0C1A13"
+  light: "#F5FFF9"
+author:
+  name: "Ana Cristina"
+  email: ""
+social:
+  whatsapp: ""
+  linkedin: ""
+  github: ""
